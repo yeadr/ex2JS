@@ -48,7 +48,25 @@ ex5("Esternocleidomastorideo")
 function ex6(a, b, c = 47) {
     console.log("")
     console.log("Ex 6:")
-    return a + b + c;
+    return a + b + c
 }
 
 console.log(ex6(1, 3))
+
+
+const ex7 = () => {
+    console.log("")
+    console.log("Ex 7:")
+    ex3()
+    return ex6(3, 7, 99)
+}
+
+console.log(ex7())
+
+const ex8 = (a, b) => {
+    console.log("")
+    console.log("Ex 8:")
+    return a === 30 || b === 30 || (a + b === 30)
+}
+
+console.log(ex8(15,15))
