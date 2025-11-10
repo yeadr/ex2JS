@@ -94,3 +94,11 @@ const ex11 = (num) => {
 }
 
 console.log(ex11(17))
+
+const ex12 = (str) => {
+    console.log("")
+    console.log("Ex 12:")
+    return str.toLowerCase()
+}
+
+console.log(ex12("WHAT ARE YOU DOING?"))
