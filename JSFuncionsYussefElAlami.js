@@ -12,3 +12,12 @@ function ex2(variable) {
 }
 
 ex2(33)
+
+function ex3() {
+    console.log("")
+    console.log("Ex 3:")
+    const data = Date();
+    console.log(data);
+}
+
+ex3()
