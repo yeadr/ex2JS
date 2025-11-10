@@ -87,6 +87,10 @@ const ex10 = (a, b) => {
 
 console.log(ex10(false, false))
 
-const ex11 = (a) => {
-    parseFloat(Math.sqrt(a).toFixed(2));
+const ex11 = (num) => {
+    console.log("")
+    console.log("Ex 11:")
+    return parseFloat(Math.sqrt(num).toFixed(2))
 }
+
+console.log(ex11(17))
