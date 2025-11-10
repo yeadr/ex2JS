@@ -69,4 +69,4 @@ const ex8 = (a, b) => {
     return a === 30 || b === 30 || (a + b === 30)
 }
 
-console.log(ex8(15,15))
+console.log(ex8(15,1))
