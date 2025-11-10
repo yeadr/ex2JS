@@ -70,3 +70,23 @@ const ex8 = (a, b) => {
 }
 
 console.log(ex8(15,15))
+
+const ex9 = function(a, b) {
+    console.log("")
+    console.log("Ex 9:")
+    return a === 30 || b === 30 || (a + b === 30)
+}
+
+console.log(ex9(1,83))
+
+const ex10 = (a, b) => {
+    console.log("")
+    console.log("Ex 10:")
+    return a === b && typeof a === typeof b
+}
+
+console.log(ex10(false, false))
+
+const ex11 = (a) => {
+    parseFloat(Math.sqrt(a).toFixed(2));
+}
