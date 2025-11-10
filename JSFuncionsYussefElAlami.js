@@ -102,3 +102,11 @@ const ex12 = (str) => {
 }
 
 console.log(ex12("WHAT ARE YOU DOING?"))
+
+const ex13 = (a, b) => {
+    console.log("")
+    console.log("Ex 13:")
+    return (a === null ? "" : a ) + (b === null ? "" : b)
+}
+
+console.log(ex13(null, 32))
