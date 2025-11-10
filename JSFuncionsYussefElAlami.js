@@ -21,3 +21,9 @@ function ex3() {
 }
 
 ex3()
+
+function ex4() {
+    let varInterna = "Hola";
+}
+console.log("")
+console.log(typeof varInterna);
