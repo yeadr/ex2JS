@@ -44,3 +44,11 @@ function ex5(string) {
 }
 
 ex5("Esternocleidomastorideo")
+
+function ex6(a, b, c = 47) {
+    console.log("")
+    console.log("Ex 6:")
+    return a + b + c;
+}
+
+console.log(ex6(1, 3))
