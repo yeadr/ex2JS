@@ -1,6 +1,6 @@
 function ex1(nom, cognoms) {
     console.log("Ex 1:")
-    console.log(`${nom} ${cognoms}`);
+    console.log(`${nom} ${cognoms}`)
 }
 
 ex1("Yussef", "El Alami")
@@ -8,7 +8,7 @@ ex1("Yussef", "El Alami")
 function ex2(variable) {
     console.log("")
     console.log("Ex 2:")
-    console.log(typeof variable);
+    console.log(typeof variable)
 }
 
 ex2(33)
@@ -16,14 +16,31 @@ ex2(33)
 function ex3() {
     console.log("")
     console.log("Ex 3:")
-    const data = Date();
-    console.log(data);
+    const data = Date()
+    console.log(data)
 }
 
 ex3()
 
 function ex4() {
-    let varInterna = "Hola";
+    let varInterna = "Hola"
 }
 console.log("")
-console.log(typeof varInterna);
+console.log(typeof varInterna)
+
+function ex5(string) {
+    console.log("")
+    console.log("Ex 5:")
+    let contador = 0
+    for (const letra of string) {
+        if(letra.toLowerCase() == "a" || letra.toLowerCase() == "e" || 
+            letra.toLowerCase() == "i" || letra.toLowerCase() == "o" || 
+            letra.toLowerCase() == "u")
+            {
+            contador++
+        }
+    }
+    console.log(contador)
+}
+
+ex5("Esternocleidomastorideo")
