@@ -110,3 +110,20 @@ const ex13 = (a, b) => {
 }
 
 console.log(ex13(null, 32))
+
+function ex141(frase, paraula) {
+    console.log("")
+    console.log("Ex 14.1:")
+    return frase.length - frase.indexOf(paraula)
+}
+
+console.log(ex141("No vull mes pomes", "vull"))
+
+function ex142(frase, paraula) {
+    console.log("")
+    console.log("Ex 14.2:")
+    const posicio = ex141(frase, paraula)
+    return frase.slice(frase.length - posicio)
+}
+
+console.log(ex142("El absoluto dios de la hipermuerte", "de"))
